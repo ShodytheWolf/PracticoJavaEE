@@ -11,6 +11,8 @@ import jakarta.inject.Inject;
 @ApplicationScoped
 public class ClienteServiceImpl implements ClienteService {
 
+	//Comment shody: esta es la capa de aplicación con la lógica de negocio.
+	
 	//En la capa de servicios necesito acceder al repositorio
 	//En un futuro voy a necesitar injectar otras funcionalidades de la plataforma
 	
