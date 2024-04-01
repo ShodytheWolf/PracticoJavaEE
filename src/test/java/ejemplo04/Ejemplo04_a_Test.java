@@ -19,6 +19,7 @@ class Ejemplo04_a_Test {
 	@Test
 	@DisplayName ("Probando de decorar un objeto que lanza una exception cuando se ejecuta un método")
 	void test() {
+		//tengo entendido que los assertDoesNotThrow() son funciones que no tiran excepciones
 		 assertDoesNotThrow(() -> {
 			 servicio.procesarPagoClientes();
 	      });
