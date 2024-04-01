@@ -14,6 +14,7 @@ public abstract class Decorador implements BeanService {
 	
 	//Inyecto la interfaz a la cual voy a implementar
 	@Inject
+	
 	//Indico que objeto es el que será decorado
 	@Delegate
 	BeanService beanService;

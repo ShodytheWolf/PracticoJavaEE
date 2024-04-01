@@ -10,8 +10,10 @@ import jakarta.inject.Inject;
 @AddPackages(ejercicio3.BeanService.class)
 public class TestEjercicio3 {
 	
+	//Interfaz que vamos a decorar, el decorador debe implementarla también para poder sobreescribir la función a decorar
 	@Inject
 	BeanService beanService;
+	
 	
 	@Test
 	public void Test() {

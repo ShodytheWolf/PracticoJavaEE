@@ -4,10 +4,12 @@ import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 public class BeanASerDecorado implements BeanService {
+	
 	//constructor vacio necesario para los beans
 	public BeanASerDecorado() {
 		super();
 	}
+	
 	
 	//función que será sobreescrita más adelante por un decorador
 	@Override
@@ -16,6 +18,7 @@ public class BeanASerDecorado implements BeanService {
 		return;
 	}
 
+	
 	@Override
 	public void funcionSinDecorar() {
 		// TODO Auto-generated method stub
